@@ -1,0 +1,45 @@
+/*dive into minimalism(c)2010 Mark Pilgrim,MIT-licensed including graphics*/
+@font-face {font-family: 'LatinModernRoman10Regular';src: url('http://wearehugh.com/public/2010/09/lmroman10-regular-webfont.eot');src: local('☺'), url('http://wearehugh.com/public/2010/09/lmroman10-regular-webfont.woff') format('woff'), url('http://wearehugh.com/public/2010/09/lmroman10-regular-webfont.ttf') format('truetype'), url('http://wearehugh.com/public/2010/09/lmroman10-regular-webfont.svg#webfontg3VAmqr8') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'LatinModernRomanSlanted10Regu';src: url('http://wearehugh.com/public/2010/09/lmromanslant10-regular-webfont.eot');src: local('☺'), url('http://wearehugh.com/public/2010/09/lmromanslant10-regular-webfont.woff') format('woff'), url('http://wearehugh.com/public/2010/09/lmromanslant10-regular-webfont.ttf') format('truetype'), url('http://wearehugh.com/public/2010/09/lmromanslant10-regular-webfont.svg#webfont5pLJWgYw') format('svg');font-weight: normal;font-style: oblique;}
+@font-face {font-family: 'LatinModernRoman10Bold';src: url('http://wearehugh.com/public/2010/09/lmroman10-bold-webfont.eot');src: local('☺'), url('http://wearehugh.com/public/2010/09/lmroman10-bold-webfont.woff') format('woff'), url('http://wearehugh.com/public/2010/09/lmroman10-bold-webfont.ttf') format('truetype'), url('http://wearehugh.com/public/2010/09/lmroman10-bold-webfont.svg#webfontDIaNd4lG') format('svg');font-weight: bold;font-style: normal;}
+@font-face {font-family: 'LatinModernRoman10BoldItalic';src: url('http://wearehugh.com/public/2010/09/lmroman10-bolditalic-webfont.eot');src: local('☺'), url('http://wearehugh.com/public/2010/09/lmroman10-bolditalic-webfont.woff') format('woff'), url('http://wearehugh.com/public/2010/09/lmroman10-bolditalic-webfont.ttf') format('truetype'), url('http://wearehugh.com/public/2010/09/lmroman10-bolditalic-webfont.svg#webfontVm6n5sgb') format('svg');font-weight: bold;font-style: italic;}
+@font-face {font-family: 'LatinModernMono10Regular';src: url('http://wearehugh.com/public/2010/09/lmmono10-regular-webfont.eot');src: local('☺'), url('http://wearehugh.com/public/2010/09/lmmono10-regular-webfont.woff') format('woff'), url('http://wearehugh.com/public/2010/09/lmmono10-regular-webfont.ttf') format('truetype'), url('http://wearehugh.com/public/2010/09/lmmono10-regular-webfont.svg#webfontThQaD2ST') format('svg');font-weight: normal;font-style: normal;}
+html{color:black}
+body{font:normal medium 'LatinModernRoman10Regular',serif;margin:1.75em auto;width:40em;line-height:1.75;word-spacing:0.1em}
+em,i,blockquote{font-family:'LatinModernRomanSlanted10Regu',serif;font-style:oblique}
+strong,b{font-family:'LatinModernRoman10Bold',serif;}
+pre,code,var,samp,kbd,tt{font-family:'LatinModernMono10Regular',monospace;}
+h2,h3{font-weight:bold}
+.c{font-family:'Arial Unicode MS',FreeSerif,'DejaVu Sans',sans-serif}
+a{background:transparent;text-decoration:none;border-bottom:1px dotted}
+a:hover{border-bottom:1px solid}
+a:link{color:#1b67c9}
+a:visited{color:darkorchid}
+h1 a,h2 a,h3 a,#nav a,.punch a{color:inherit !important}
+abbr,.p{border:0;letter-spacing:0.1em;text-transform:lowercase;font-variant:small-caps}
+h1,h2,h3,p,ul,ol,#nav{margin:1.75em 0}
+h1,h2,h3{font-size:medium}
+h1,h2{display:inline}
+h1{font-weight:normal}
+pre,tt{white-space:pre-wrap;font-size:medium;line-height:2.154}
+cite{font-style:normal}
+img{border:0}
+.framed{border:1px solid}
+.cl,#arc th,#arc td,.punch p{list-style:none;margin:0;padding:0}
+.cl li{margin-bottom:-1px;border-bottom:1px dotted;overflow:hidden}
+.sig,.tb,.pb,blockquote{font-size:small;line-height:2.154;margin:2.154em 0;padding:0}
+blockquote{font-style:oblique;border-left:1px dotted;margin-left:2.154em;padding-left:2.154em}
+blockquote p{margin:2.154em 0}
+.tb,.pb{margin-top:0;padding:2.154em 0}
+.sig,.punch,#arc th{text-align:right}
+.f,.c{text-align:center;clear:both}
+#comment,#arc{width:100%}
+#comment{height:14.6em;margin:0;line-height:2.154}
+.me{background:papayawhip;color:black;padding:1.75em 1.75em 0 1.75em;border-top:1px dotted;margin-top:-2px}
+.me>p:first-child{margin-top:0}
+.punch{float:right;font-size:x-small;margin:0 0 1.75em 1.75em;line-height:1.75}
+#nav + .punch + p:first-letter{float:left;color:gainsboro;padding:0.11em 4px 0 0;font:normal 4em/0.68 serif}
+#arc th{padding:0 1.75em 0 0;vertical-align:baseline}
+#arc{border-collapse:collapse}
+figure{display:block;text-align:center;margin:1.75em 0}
+figure img{display:block;margin:0 auto}

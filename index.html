@@ -1,0 +1,63 @@
+<!DOCTYPE HTML> 
+<html lang=en> 
+<head> 
+<meta charset=utf-8> 
+<title>Rupee Font</title> 
+<link rel="stylesheet" media="screen" href="style.css" />
+<link rel="stylesheet" media="screen" href="/css/rupee.css" />
+</head> 
+<body> 
+<article>
+  <section id="nav"><h2>Rupee Font</h2><br />
+    <span>Use the Rupee symbol on your website the <em>right way</em></span>
+  </section>
+  <section>
+    <p>While there are many approaches to using the Rupee symbol on a
+    web page, <a href="http://www.infinitelybeta.com">we</a> have come
+    up with a different way to do it in a backwards compatible yet
+    unobtrusive manner.</p>
+
+    <p>We created a custom font with only one code-point (<code>U+20A8</code>)
+    which stands for <code>RUPEE SIGN</code> and we assigned the nice
+    Rupee symbol glyph designed
+    by <a href="http://blog.foradian.com/rupee-font-version-30">Foradian
+    Technologies</a> to that code-point. Using that font is easy,
+    just use <code>&amp;#8360;</code> wherever you need the Rupee
+    symbol and wrap it in a <code>span</code> tag with a CSS
+    class; finally through CSS one can use the custom font to style
+    the content. If a browser doesn&#8217;t
+    support <code>@font-face</code> the user will see the &#8360;
+    symbol which is widely supported. This is one of the reasons why
+    we used that code-point instead of the official <code>INDIAN RUPEE SIGN</code>
+    code-point <code>U+20B9</code> (another reason being the fact
+    that our font simply predated the assignment of the new code-point).</p>
+
+    <p>The advantage of this approach is that it's easy to use and
+    fully backwards compatible. You can see it in action
+    on <a href="http://www.paisa.com">Paisa.com &mdash; a webapp about the Indian
+    stock market</a>.</p>
+
+    <p>Using the font on your website is easy, just include our
+    stylesheet somewhere in your HTML page like this:</p>
+
+    <pre>&lt;link rel="stylesheet" type="text/css" media="screen" href="http://qotd.github.com/rupee-font/css/rupee.css" /&gt;</pre>
+
+    <p>Then you can use the following markup wherever you need the
+    Rupee symbol:</p>
+
+    <pre>&lt;span class="rupee"&gt&amp;#8360&lt;span&gt;</pre>
+
+    <p>And the text should show up like
+    this: <span class="rupee">&#8360</span></p>
+
+    <p>You can also fork the project on <a href="https://github.com/qotd/rupee-font/">Github</a>.</p>
+    
+    <p>Fin.</p>
+  </section>
+</article>
+<footer class="sig">
+  Design stolen from <a href="http://diveintomark.org/">Mark
+  Pilgrim</a> under MIT X11 license.
+</footer>
+</body> 
+</html> 
